@@ -1,3 +1,5 @@
+[![Run Tests](https://github.com/pranall/german-credit-risk-api/actions/workflows/tests.yml/badge.svg)](https://github.com/pranall/german-credit-risk-api/actions/workflows/tests.yml)
+
 # German Credit Risk API
 
 A deployed machine learning API that predicts loan default risk, based on the UCI German Credit dataset. Built end-to-end: data cleaning, model comparison across 8 algorithms, hyperparameter tuning, threshold calibration, containerization, and a REST API.
