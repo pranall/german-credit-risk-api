@@ -1,5 +1,7 @@
 [![Run Tests](https://github.com/pranall/german-credit-risk-api/actions/workflows/tests.yml/badge.svg)](https://github.com/pranall/german-credit-risk-api/actions/workflows/tests.yml)
 
+**Live API:** https://german-credit-risk-api.onrender.com/docs
+
 # German Credit Risk API
 
 A deployed machine learning API that predicts loan default risk, based on the UCI German Credit dataset. Built end-to-end: data cleaning, model comparison across 8 algorithms, hyperparameter tuning, threshold calibration, containerization, and a REST API.
@@ -82,6 +84,7 @@ Then visit `http://127.0.0.1:8000/docs`.
 - Trained on 1,000 records from a 1994 German dataset — demographic and economic patterns may not transfer to other populations or eras.
 - Test set is small (250 rows); confidence intervals on the reported metrics are wide.
 - No monitoring, authentication, or logging — this is a portfolio deployment, not production-hardened.
+- Hosted on Render's free tier — the service spins down after 15 minutes of inactivity and takes 30-50 seconds to wake on the first request after idling.
 
 ## Stack
 
