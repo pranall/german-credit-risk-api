@@ -12,5 +12,5 @@ def predict(raw_input: dict) -> dict:
     return {
         "default_probability": round(float(probability_default), 4),
         "prediction": "yes" if prediction == 1 else "no",
-        "threshold_used": threshold
+        "threshold_used": float(threshold)
     }
